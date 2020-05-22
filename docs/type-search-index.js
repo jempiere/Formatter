@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.jempiere.util","l":"Formatter.Fermata"},{"p":"com.jempiere.util","l":"Formatter"}]
