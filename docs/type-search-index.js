@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.jempiere.util","l":"Formatter.Fermata"},{"p":"com.jempiere.util","l":"Formatter"}]
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.jempiere.util.home","l":"EFormatter"},{"p":"com.jempiere.util","l":"Formatter.Fermata"},{"p":"com.jempiere.util","l":"Formatter"},{"p":"com.jempiere.util.home","l":"PersonalFormatterExample"}]

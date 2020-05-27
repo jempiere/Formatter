@@ -56,12 +56,19 @@ public class Formatter {
      */
     public String format(String data, String format) {
         lastCall = data;
-        String format1 = "ew(";//End with: (_)
-        String format2 = "rw(";//Replace with   (_:_)
-        String format3 = "bw(";//Begin with: (_)
-        String format4 = "sc()";//Set Caps ()
-        String format5 = "sl()";//Set lowercase ()
-        String format6 = "sb(";//Separate by (#:'')
+
+        //Replace with   (_:_)
+        String format2 = "rw(";
+        //End with: (_)
+        String format1 = "ew(";
+        //Begin with: (_)
+        String format3 = "bw(";
+        //Set Caps ()
+        String format4 = "sc()";
+        //Set lowercase ()
+        String format5 = "sl()";
+        //Separate by (#:'')
+        String format6 = "sb(";
         String[] formats = {format1, format2, format3, format4, format5, format6};
         boolean formattable = false;
         for (String formatter : formats) {
@@ -198,7 +205,7 @@ public class Formatter {
      * @param format the format to be saved
      * @since 1.0.0
      */
-    public void addFormat(String name, String format) {
+    public void addFormat(String name, String format){
         for (Fermata f : formats) {
             if (f.equals(new Fermata(name, format))) {
                 return;
@@ -220,7 +227,7 @@ public class Formatter {
      * @return a String[] of all of the formats that apply to the given name
      * @since 1.0.0
      */
-    public String[] getFormats(String name) {
+    public String[] getFormats(String name){
 
         ArrayList<String> results = new ArrayList<>();
         for (Fermata f : formats) {
