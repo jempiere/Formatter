@@ -12,6 +12,7 @@ public abstract class EFormatter {
     /**Stores the last piece of edited data, or "" if none have been created yet*/
     public String lastResult = "";
 
+
     /**
      * @param data   a String to be formatted
      * @param format a set of characters that tells the formatter how data should be formatted.
