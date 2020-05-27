@@ -16,7 +16,7 @@ The Formatter class now has a new sister class - EFormatter! The EFormatter clas
 
 ## Installation Instructions
 
-> intellij IDEA:
+> Intellij IDEA:
 1. download the jar located in out >> artifacts >> Formatter_jar
 2. move it into your project (location is irrelevant)
 3. right click > add as Library
