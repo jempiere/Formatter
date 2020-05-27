@@ -11,4 +11,4 @@ The commands are available in the formatter(String data, String format) method o
 ## Update 1.3!
 
 
-The Formatter class now has a new sister class - EFormatter! The EFormatter class can be extended (though its functionality is much more limited than the original Formatter class--for now!) and used to implement custom formatter functionality! The original is still untouched however. There is also a new example class that shows any beginners (or anybody unwilling to read my code) how to use it!
+The Formatter class now has a new sister class - EFormatter! The EFormatter class can be extended (though its functionality is much more limited than the original Formatter class--for now!) and used to implement custom formatter functionality! The original commands are untouched as of now, ands will still exist (so do not try to override them -- it won't do anything good). There is also a new example class (PersonalFormartterExample.java) that shows any beginners (or anybody unwilling to read my code) how to use it!
