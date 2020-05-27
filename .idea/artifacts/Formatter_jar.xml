@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Formatter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Formatter_jar</output-path>
+    <root id="archive" name="Formatter.jar">
+      <element id="module-output" name="Formatter" />
+    </root>
+  </artifact>
+</component>
