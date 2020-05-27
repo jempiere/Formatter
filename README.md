@@ -15,21 +15,22 @@ The Formatter class now has a new sister class - EFormatter! The EFormatter clas
 
 
 ## Installation Instructions
-###intellij IDEA:
+
+##intellij IDEA:
 1. download the jar located in out >> artifacts >> Formatter_jar
 2. move it into your project (location is irrelevant)
 3. right click > add as Library
 4. if it is now in the `External Libraries` folder and it hasn't been automatically removed from its initial location in your classpath, you may delete it
 4. `import com.jempiere.util.Formatter` or `import com.jempiere.util.home.EFormatter` in your code!
 5. enjoy! reference the javadoc at any time at https://jempiere.github.io/Formatter/ for information on usage.
-###Eclipse IDE:
+##Eclipse IDE:
 1. Download the jar located in out >> artifacts >> Formatter_jar
 1. Right click the project file
 2. Select Build Path > Configure Build Path > Libraries > Add external JARs
 3. Select Formatter.jar from the directory
 4. `import com.jempiere.util.Formatter` or `import com.jempiere.util.home.EFormatter` in your code!
 4. Click Apply and Ok
-###NetBeans IDE:
+##NetBeans IDE:
 1. download the jar located in out >> artifacts >> Formatter_jar
 2. Right click Libraries in Project list, then hit Add and select the jar you downloaded
 4. `import com.jempiere.util.Formatter` or `import com.jempiere.util.home.EFormatter` in your code!
