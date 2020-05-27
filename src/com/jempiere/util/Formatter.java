@@ -7,6 +7,7 @@ import java.util.Arrays;
  * @author jempiere
  * @version 1.3.0
  */
+
 public class Formatter {
     private String lastCall = "";
     private String lastResult = "";
